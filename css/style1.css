@@ -1,0 +1,64 @@
+body {
+background-image: url(https://cdn.pixabay.com/photo/2018/03/10/23/27/structure-3215624_960_720.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+td {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-left: 0.5px rgb(114, 114, 114);
+}
+td:hover {
+    border-color: rgb(44, 2, 2);
+}
+.marked {
+    background-color: rgba(5, 255, 5, 0.363);
+}
+
+.shown {
+     background-color: rgba(107, 107, 107, 0.246);
+}
+
+.died {
+    background-color: red;
+}
+
+.logo {
+align-content: center;
+text-align: center;
+}
+.level-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.game {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.one {
+    color: rgb(38, 134, 0);
+}
+.two {
+    color: rgb(230, 168, 0);
+}
+.three {
+    color: rgb(0, 65, 139);
+}
+.four {
+    color: red;
+}
+
+.hints img {
+    height: 30px;
+    width: 30px;
+}
+
+h5 {
+    margin: 0;
+}
