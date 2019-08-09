@@ -1,7 +1,8 @@
 body {
-background-image: url(https://cdn.pixabay.com/photo/2018/03/10/23/27/structure-3215624_960_720.jpg);
+background-image: url(https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1409&q=80);
 background-size: cover;
 background-repeat: no-repeat;
+font-family: 'Raleway', sans-serif;
 }
 td {
     width: 35px;
@@ -17,7 +18,7 @@ td:hover {
 }
 
 .shown {
-     background-color: rgba(107, 107, 107, 0.246);
+     background-color: rgba(107, 107, 107, 0.548);
 }
 
 .died {
@@ -34,21 +35,35 @@ text-align: center;
 }
 
 .game {
-    text-align: center;
+    display: flex;
+    justify-content: space-around
 }
 
 table {
-    margin: 0 auto;
+   flex: 1;
+   min-width: 300px;
+}
+
+.scores {
+    flex: 2;
+    margin-left: 30px;
+    text-align: center;
+
+}
+
+.user-bar {
+    flex: 2;
+    text-align: center;
 }
 
 .one {
-    color: rgb(38, 134, 0);
+    color: rgb(72, 255, 0);
 }
 .two {
-    color: rgb(230, 168, 0);
+    color: rgb(251, 255, 2);
 }
 .three {
-    color: rgb(0, 65, 139);
+    color: rgb(6, 122, 255);
 }
 .four {
     color: red;
